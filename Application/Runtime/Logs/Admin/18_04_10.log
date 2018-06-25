@@ -1,0 +1,263 @@
+[ 2018-04-10T15:17:28+08:00 ] ::1 /admin.php?c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013318s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.2603s ]
+SQL: SELECT * FROM `details`  [ RunTime:0.0172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011485s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.011580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013455s ]
+
+[ 2018-04-10T15:17:32+08:00 ] ::1 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+
+[ 2018-04-10T15:17:33+08:00 ] ::1 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+
+[ 2018-04-10T15:17:34+08:00 ] ::1 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+
+[ 2018-04-10T15:17:45+08:00 ] ::1 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001971s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `admin` WHERE ( user_name="admin" ) LIMIT 1   [ RunTime:0.0214s ]
+
+[ 2018-04-10T15:17:45+08:00 ] ::1 /admin.php?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="1" ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002202s ]
+
+[ 2018-04-10T15:17:45+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005046s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `details`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002344s ]
+
+[ 2018-04-10T15:18:35+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `details`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002088s ]
+
+[ 2018-04-10T15:18:35+08:00 ] ::1 /admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0115s ]
+NOTIC: [8] Undefined variable: page D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\UserController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: pageSize D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\UserController.class.php 第 17 行.
+SQL: SELECT * FROM `admin` ORDER BY user_id  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
+[ 2018-04-10T15:18:36+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `details`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002148s ]
+
+[ 2018-04-10T15:18:38+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001783s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `details`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2018-04-10T15:18:42+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001923s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `details`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2018-04-10T15:18:43+08:00 ] ::1 /admin.php?c=search&name=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `details`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2018-04-10T15:19:30+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `details`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002358s ]
+

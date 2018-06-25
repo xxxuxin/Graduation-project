@@ -1,0 +1,2168 @@
+[ 2018-04-22T10:04:10+08:00 ] ::1 /admin.php?c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0802s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.009457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009544s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016151s ]
+
+[ 2018-04-22T10:07:27+08:00 ] ::1 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `admin` WHERE ( user_name="admin" ) LIMIT 1   [ RunTime:0.0212s ]
+
+[ 2018-04-22T10:07:27+08:00 ] ::1 /admin.php?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="1" ) LIMIT 1   [ RunTime:0.0148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001912s ]
+
+[ 2018-04-22T10:07:27+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2018-04-22T10:07:30+08:00 ] ::1 /admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: page D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\UserController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: pageSize D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\UserController.class.php 第 17 行.
+SQL: SELECT * FROM `admin` ORDER BY user_type  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002038s ]
+
+[ 2018-04-22T10:07:32+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002022s ]
+
+[ 2018-04-22T10:07:33+08:00 ] ::1 /admin.php?c=list&name=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="admin" )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2018-04-22T10:07:34+08:00 ] ::1 /admin.php?c=list&a=indexcheck&name=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `list`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001790s ]
+
+[ 2018-04-22T10:08:11+08:00 ] ::1 /admin.php?c=list&a=indexcheck&name=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `list`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001956s ]
+
+[ 2018-04-22T10:08:12+08:00 ] ::1 /admin.php?c=list&a=indexcheck&name=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `list`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001852s ]
+
+[ 2018-04-22T10:08:13+08:00 ] ::1 /admin.php?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="1" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2018-04-22T10:08:14+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002339s ]
+
+[ 2018-04-22T10:08:15+08:00 ] ::1 /admin.php?c=list&a=indexcheck&name=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `list`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001756s ]
+
+[ 2018-04-22T10:16:33+08:00 ] ::1 /admin.php?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="1" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002309s ]
+
+[ 2018-04-22T10:16:33+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2018-04-22T10:16:37+08:00 ] ::1 /admin.php?c=list&a=indexcheck&name=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `list`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2018-04-22T10:17:50+08:00 ] ::1 /admin.php?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="1" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2018-04-22T10:17:50+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2018-04-22T10:17:52+08:00 ] ::1 /admin.php?c=list&a=indexcheck&name=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `list`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2018-04-22T10:22:34+08:00 ] ::1 /admin.php?c=list&name=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="admin" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2018-04-22T10:22:40+08:00 ] ::1 /admin.php?m=admin&c=login&a=loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+
+[ 2018-04-22T10:22:41+08:00 ] ::1 /admin.php?c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2018-04-22T10:22:58+08:00 ] ::1 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `admin` WHERE ( user_name="徐鑫" ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-04-22T10:22:58+08:00 ] ::1 /admin.php?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="18" ) LIMIT 1   [ RunTime:0.0177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2018-04-22T10:22:58+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001558s ]
+
+[ 2018-04-22T10:23:01+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2018-04-22T10:30:36+08:00 ] ::1 /admin.php?c=list&a=indexcheck&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `list`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001896s ]
+
+[ 2018-04-22T10:30:38+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2018-04-22T10:33:55+08:00 ] ::1 /admin.php?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="18" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001789s ]
+
+[ 2018-04-22T10:33:55+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2018-04-22T10:34:01+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2018-04-22T10:35:07+08:00 ] ::1 /admin.php?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="18" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2018-04-22T10:35:07+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2018-04-22T10:35:49+08:00 ] ::1 /admin.php?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="18" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2018-04-22T10:35:49+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001445s ]
+
+[ 2018-04-22T10:35:50+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001801s ]
+
+[ 2018-04-22T10:35:52+08:00 ] ::1 /admin.php?c=list&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0101s ]
+ERR: Think\Model:getDetailsById方法不存在！
+
+[ 2018-04-22T10:36:45+08:00 ] ::1 /admin.php?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="18" ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2018-04-22T10:36:45+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2018-04-22T10:36:47+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002125s ]
+
+[ 2018-04-22T10:36:48+08:00 ] ::1 /admin.php?c=list&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 26 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 28 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 33 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 39 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 45 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 51 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2018-04-22T10:36:52+08:00 ] ::1 /admin.php?c=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\ListController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2018-04-22T10:36:59+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2018-04-22T10:37:00+08:00 ] ::1 /admin.php?c=list&a=indexadd&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 23 行.
+SQL: SELECT DISTINCT  `d_name` FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0446s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 28 行.
+SQL: SELECT DISTINCT  `d_type` FROM `details` ORDER BY convert(d_type using gb2312) ASC  [ RunTime:0.0345s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 33 行.
+SQL: SELECT DISTINCT  `d_color` FROM `details` ORDER BY convert(d_color using gb2312) ASC  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 38 行.
+SQL: SELECT DISTINCT  `d_unit` FROM `details` ORDER BY convert(d_unit using gb2312) ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2018-04-22T10:37:05+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2018-04-22T10:37:06+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2018-04-22T10:43:58+08:00 ] ::1 /admin.php?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="18" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001835s ]
+
+[ 2018-04-22T10:43:58+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001659s ]
+
+[ 2018-04-22T10:44:00+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002162s ]
+
+[ 2018-04-22T10:44:01+08:00 ] ::1 /admin.php?c=list&a=edit&name=%E5%BE%90%E9%91%AB&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 26 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 28 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 33 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 39 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 45 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 51 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2018-04-22T10:44:04+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2018-04-22T10:44:06+08:00 ] ::1 /admin.php?c=list&a=edit&name=%E5%BE%90%E9%91%AB&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 26 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 28 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 33 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 39 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 45 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 51 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2018-04-22T10:44:08+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2018-04-22T10:44:12+08:00 ] ::1 /admin.php?c=list&a=edit&name=%E5%BE%90%E9%91%AB&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 26 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 28 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 33 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 39 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 45 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 51 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2018-04-22T10:44:18+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2018-04-22T10:48:51+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002200s ]
+
+[ 2018-04-22T10:48:53+08:00 ] ::1 /admin.php?c=list&a=indexadd&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0125s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 23 行.
+SQL: SELECT DISTINCT  `d_name` FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 28 行.
+SQL: SELECT DISTINCT  `d_type` FROM `details` ORDER BY convert(d_type using gb2312) ASC  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 33 行.
+SQL: SELECT DISTINCT  `d_color` FROM `details` ORDER BY convert(d_color using gb2312) ASC  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 38 行.
+SQL: SELECT DISTINCT  `d_unit` FROM `details` ORDER BY convert(d_unit using gb2312) ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2018-04-22T10:58:04+08:00 ] ::1 /admin.php?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="18" ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001859s ]
+
+[ 2018-04-22T10:58:04+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2018-04-22T10:58:05+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2018-04-22T10:58:06+08:00 ] ::1 /admin.php?c=list&a=edit&name=%E5%BE%90%E9%91%AB&id=042101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `list` WHERE ( l_lcode="042101" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 40 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 46 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 52 行.
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2018-04-22T10:58:27+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2018-04-22T10:58:29+08:00 ] ::1 /admin.php?c=list&a=indexadd&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0118s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 23 行.
+SQL: SELECT DISTINCT  `d_name` FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 28 行.
+SQL: SELECT DISTINCT  `d_type` FROM `details` ORDER BY convert(d_type using gb2312) ASC  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 33 行.
+SQL: SELECT DISTINCT  `d_color` FROM `details` ORDER BY convert(d_color using gb2312) ASC  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 38 行.
+SQL: SELECT DISTINCT  `d_unit` FROM `details` ORDER BY convert(d_unit using gb2312) ASC  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001758s ]
+
+[ 2018-04-22T11:02:47+08:00 ] ::1 /admin.php?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="18" ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001895s ]
+
+[ 2018-04-22T11:02:47+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001573s ]
+
+[ 2018-04-22T11:02:49+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001702s ]
+
+[ 2018-04-22T11:02:50+08:00 ] ::1 /admin.php?c=list&a=edit&name=%E5%BE%90%E9%91%AB&id=042101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `list` WHERE ( l_lcode="042101" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2018-04-22T11:03:55+08:00 ] ::1 /admin.php?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="18" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2018-04-22T11:03:55+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2018-04-22T11:03:56+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001667s ]
+
+[ 2018-04-22T11:03:57+08:00 ] ::1 /admin.php?c=list&a=edit&name=%E5%BE%90%E9%91%AB&id=042101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `list` WHERE ( l_lcode="042101" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2018-04-22T11:04:20+08:00 ] ::1 /admin.php?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="18" ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2018-04-22T11:04:20+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2018-04-22T11:04:21+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2018-04-22T11:04:22+08:00 ] ::1 /admin.php?c=list&a=edit&name=%E5%BE%90%E9%91%AB&id=042101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `list` WHERE ( l_lcode="042101" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001571s ]
+
+[ 2018-04-22T11:04:56+08:00 ] ::1 /admin.php?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `admin` WHERE ( user_id="18" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002334s ]
+
+[ 2018-04-22T11:04:56+08:00 ] ::1 /admin.php?c=search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\SearchController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002470s ]
+
+[ 2018-04-22T11:04:57+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001757s ]
+
+[ 2018-04-22T11:04:58+08:00 ] ::1 /admin.php?c=list&a=edit&name=%E5%BE%90%E9%91%AB&id=042101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `list` WHERE ( l_lcode="042101" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2018-04-22T11:12:52+08:00 ] ::1 /admin.php?c=details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002240s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001872s ]
+
+[ 2018-04-22T11:42:03+08:00 ] ::1 /admin.php?c=details&a=indexadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002230s ]
+
+[ 2018-04-22T11:54:02+08:00 ] ::1 /admin.php?c=details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001756s ]
+
+[ 2018-04-22T11:54:07+08:00 ] ::1 /admin.php?c=details&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `details` WHERE ( details_id="1" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2018-04-22T12:03:37+08:00 ] ::1 /admin.php?c=details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2018-04-22T12:13:08+08:00 ] ::1 /admin.php?c=details&a=indexnumadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0099s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 23 行.
+SQL: SELECT DISTINCT  `d_name` FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 28 行.
+SQL: SELECT DISTINCT  `d_type` FROM `details` ORDER BY convert(d_type using gb2312) ASC  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 33 行.
+SQL: SELECT DISTINCT  `d_color` FROM `details` ORDER BY convert(d_color using gb2312) ASC  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 38 行.
+SQL: SELECT DISTINCT  `d_unit` FROM `details` ORDER BY convert(d_unit using gb2312) ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001946s ]
+
+[ 2018-04-22T12:23:31+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001845s ]
+
+[ 2018-04-22T12:23:40+08:00 ] ::1 /admin.php?c=list&a=indexcheck&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `list`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001707s ]
+
+[ 2018-04-22T12:23:48+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001477s ]
+
+[ 2018-04-22T12:23:54+08:00 ] ::1 /admin.php?c=list&a=edit&name=%E5%BE%90%E9%91%AB&id=042101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `list` WHERE ( l_lcode="042101" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2018-04-22T12:23:57+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2018-04-22T12:25:40+08:00 ] ::1 /admin.php?c=list&a=indexcheck&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `list`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2018-04-22T12:25:41+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2018-04-22T12:31:25+08:00 ] ::1 /admin.php?c=list&a=indexadd&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0107s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 23 行.
+SQL: SELECT DISTINCT  `d_name` FROM `details` ORDER BY convert(d_name using gb2312) ASC  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 28 行.
+SQL: SELECT DISTINCT  `d_type` FROM `details` ORDER BY convert(d_type using gb2312) ASC  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 33 行.
+SQL: SELECT DISTINCT  `d_color` FROM `details` ORDER BY convert(d_color using gb2312) ASC  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHPWAMP_IN1\wwwroot\Application\Common\Model\DetailsModel.class.php 第 38 行.
+SQL: SELECT DISTINCT  `d_unit` FROM `details` ORDER BY convert(d_unit using gb2312) ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001999s ]
+
+[ 2018-04-22T12:41:33+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2018-04-22T12:42:00+08:00 ] ::1 /admin.php?c=list&a=edit&name=%E5%BE%90%E9%91%AB&id=042101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `list` WHERE ( l_lcode="042101" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: details D:\PHPWAMP_IN1\wwwroot\Application\Runtime\Cache\Admin\52b67d138aa7d33f5512bd0b66a1aab4.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2018-04-22T12:48:58+08:00 ] ::1 /admin.php?c=list&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `list` WHERE ( l_proposer="徐鑫" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2018-04-22T12:49:06+08:00 ] ::1 /admin.php?c=list&a=indexcheck&name=%E5%BE%90%E9%91%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `list`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001589s ]
+

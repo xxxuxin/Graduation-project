@@ -1,0 +1,23 @@
+[ 2018-03-26T17:17:54+08:00 ] 127.0.0.1 /admin.php?c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+NOTIC: [8] Undefined index: name D:\PHPWAMP_IN1\wwwroot\Application\Admin\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0983s ]
+SQL: SELECT * FROM `details`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013305s ]
+

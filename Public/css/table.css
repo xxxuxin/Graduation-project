@@ -1,0 +1,58 @@
+table tbody {  
+    display:block;  
+    height:630px;  
+    overflow-y:scroll;  
+}
+table thead, tbody tr {  
+    display:table;  
+    width:100%;  
+    table-layout:fixed;  
+}
+table thead {  
+    width:1702px;  
+}
+.td1{
+  width: 140px;
+  max-width: 140px;
+  min-width: 140px;
+}
+.td2{
+  width: 170px;
+  max-width: 170px;
+  min-width: 170px;
+}
+.td3{
+  width: 700px;
+  max-width: 700px;
+  min-width: 700px;
+}
+.td4{
+  width: 250px;
+  max-width: 250px;
+  min-width: 250px;
+}
+.td5{
+  width: 150px;
+  max-width: 150px;
+  min-width: 150px;
+}
+.td6{
+  width: 150px;
+  max-width: 150px;
+  min-width: 150px;
+}
+.td7{
+  width: 500px;
+  max-width: 500px;
+  min-width: 500px;
+}
+.td8{
+  width: 200px;
+  max-width: 200px;
+  min-width: 200px;
+}
+.td9{
+  width: 450px;
+  max-width: 450px;
+  min-width: 450px;
+}
